@@ -367,7 +367,7 @@ case "$continue_prod" in
     bench --site $site_name scheduler enable && \
     bench --site $site_name scheduler resume && \
 
-    echo -e "${YELLOW}Restarting bench to apply all changes and optimizing environment pernissions.${NC}"
+    echo -e "${YELLOW}Restarting bench to apply all changes and optimizing environment permissions.${NC}"
     sleep 1
 
 
